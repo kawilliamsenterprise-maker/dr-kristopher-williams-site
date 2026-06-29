@@ -591,3 +591,21 @@ p {
     flex-wrap: wrap;
   }
 }
+/* Specific fix for Seeds for a Greater Harvest book image */
+.seed-cover {
+    height: 420px;
+    width: 100%;
+    background-color: #F4EFEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    padding: 20px;
+}
+.seed-book-img {
+    width: auto !important;
+    height: 115% !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+    display: block;
+}
