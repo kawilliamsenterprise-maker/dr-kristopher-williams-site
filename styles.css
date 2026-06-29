@@ -310,10 +310,24 @@ p {
 }
 
 .book-cover {
-    height: 350px;
+    height: 380px;
+    width: 100%;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid #EEE;
+    background-color: #F4EFEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.book-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    padding: 20px;
 }
 
 .book-info {
